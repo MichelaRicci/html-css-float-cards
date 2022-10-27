@@ -1,22 +1,23 @@
 body {
     font-family: 'Fredoka', sans-serif;
-    text-align: center;
+    text-align: left;
 
 
 }
 
 .container {
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
 header {
-    margin: 2rem;
+    margin: 2rem 0;
+    text-align: center;
 }
 
 h1 {
     color: #E5316F;
-    border-top: 2rem;
+   
    
 
 }
@@ -28,8 +29,12 @@ main {
 .card {
     background-color: #000000;
     float: left;
-    width: calc(900px / 3  - 16px);
-    height: 80px;
+    width: calc(950px / 3  - 16px);
+    height: 90px;
     margin: 8px;
 }
 
+.img {
+    width: 90px;
+    margin:0;
+}
