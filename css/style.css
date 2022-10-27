@@ -45,23 +45,31 @@ h1 {
 .info {
     display: inline-block;
     color: #ffffff;
-    font-style: normal;
-    font-size: 15px;
-    margin: 16px;
+    margin: 12px;
     margin-left: 8px;
-    line-height: 20px;
+    line-height: 5px; 
+    font-size: 12px;
     
     
-    
-    
-}
-
-.mail {
-    color: #4AA4BD;
 }
 
 .name {
     text-transform: uppercase;
-    font-weight: 700;
+    font-size: 15px;
     
 }
+
+.role {
+    font-size: 12px;
+
+}
+
+
+.mail {
+    color: #4AA4BD;
+    line-height: 25px;
+    text-decoration: none;
+
+
+}
+
