@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -19,5 +19,17 @@ h1 {
     border-top: 2rem;
    
 
+}
+
+main {
+    margin-top: 40px;
+}
+
+.card {
+    background-color: #000000;
+    float: left;
+    width: calc(900px / 3  - 16px);
+    height: 80px;
+    margin: 8px;
 }
 
