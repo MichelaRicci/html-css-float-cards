@@ -34,7 +34,30 @@ main {
     margin: 8px;
 }
 
+.clearfix::after {
+    content: '';
+    clear:both;
+    display: block;
+}
+
 .img {
     width: 90px;
     margin:0;
+}
+
+.info {
+    color: #ffffff;
+    float: right;
+    font-style: normal;
+    padding: 0 8px;
+    margin: 0;
+    
+}
+
+.mail {
+    color: #4AA4BD;
+}
+
+h4 {
+    text-transform: uppercase;
 }
